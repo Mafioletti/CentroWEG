@@ -1,5 +1,10 @@
-let variavel = [2,4,5,6,5,4,3,3,4,5,5,6,45,3,2,4,3,3,4,4];
+function moda(){
+let variavel = [];
+let tamanho = parseInt(prompt("Quantos numeros serão Digitados: "));
 
+for(let i = 0; i < tamanho.length; i++){
+    variavel[i] = parseInt(prompt("Digite o " + (i + 1) + "º número: "));
+}
 let cont = 0;
 let num;
 
@@ -19,4 +24,5 @@ for(let i = 0; i < variavel.length; i++){
         num = variavel[i];
     }
 }
-console.log(num)
+console.log(num);
+}
