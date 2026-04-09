@@ -7,6 +7,7 @@ let opcao = parseInt(prompt(`==Escolha a operação a ser feita==
 2 - Matemática Avançada
 3 - Conversões
 4 - Estatística
+5 - Aritmetica Avançada
 `));
 
 switch(opcao){
@@ -17,16 +18,13 @@ switch(opcao){
         matAvancada();
         break;
     case 3:
-        chamaTemp();
+        Conversoes();
         break;
     case 4:
-        Distancia();
+        Estatistica();
         break;
     case 5:
-        fracao();
-        break;
-    case 6:
-        Soma();
+        AritmeticaAvancada();
         break;
     default:
         alert("Erro, tente novamente !")
